@@ -5,7 +5,7 @@
 
     ],
     "routes":[
-        {"scr":"/(*)", "dest":"/app.js"}
+        {"scr":"/(.*)", "dest":"/app.js"}
     ],
     "env":{
         "NODE_ENV":"production"
